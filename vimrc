@@ -67,6 +67,7 @@ endfunction
 			   " 2015_9_24_21_06  add http://blog.jobbole.com/58978/   YouCompleteMe  autocomplete(自动补全插件)
 			   " 2015_10_12_15_50  add plulgin "unite" use note and url
 			   " 2015_10_13_11_50  add plulgin "easygrep" use note and url
+			   " 2015_11_3_9_50  add use  "粘贴不换行" with  ":set paste",":set nopaste"
 			   
 "====================================================================================================
 
@@ -114,6 +115,7 @@ endfunction
 				set t_vb=
 				set tm=500
 			" not create tmp file 
+
 				set nobackup
 				set nowritebackup
 				set noswapfile
@@ -263,6 +265,8 @@ endfunction
 			map vo :bp <cr> <cr>
 			map vp :bn <cr>
 			map vq :wq! <cr>
+			noremap ps :set paste <cr>
+			noremap po :set nopaste <cr>
 			map vs :w <cr>
 			map vh :help <cr>
 			"map <space> <PageDown>
