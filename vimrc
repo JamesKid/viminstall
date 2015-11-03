@@ -253,7 +253,7 @@ endfunction
 			imap kd [
 			imap kf ]
 			imap kr $
-			imap ke =
+			imap kc =
 			imap jd {
 			imap jf }
 		" command map 
