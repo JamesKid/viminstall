@@ -27,23 +27,17 @@ highlight Statement  guifg=Yellow			gui=NONE
 highlight Type						gui=NONE
 
 " Console
-" ============================JamesKid==================================
-" @author		: JamesKid 
-" @time			: 2014_3_4_14_49
-" @description  : let the vim background to dark in linux with torte 
-" @fix			: comment the ctermfg=LightGrey ctermbg=Black
-" @add			: add PreProc color
-" ======================================================================
-"
-
-highlight PreProc	ctermfg=5
-"highlight Normal     ctermfg=LightGrey	ctermbg=Black
+" fix by jameskid 2016.3.1
+" highlight Normal     ctermfg=LightGrey	ctermbg=Black
+" highlight Normal     ctermfg=khaki	ctermbg=grey20
 highlight Search     ctermfg=Black	ctermbg=Red	cterm=NONE
 highlight Visual					cterm=reverse
-highlight Cursor     ctermfg=Black	ctermbg=Green	cterm=bold
+"highlight Cursor     ctermfg=Black	ctermbg=Green	cterm=bold
+highlight Cursor     ctermfg=Black	ctermbg=Black	cterm=bold
 highlight Special    ctermfg=Brown
 highlight Comment    ctermfg=Blue
-highlight StatusLine ctermfg=blue	ctermbg=white
+"highlight StatusLine ctermfg=blue	ctermbg=white
+highlight StatusLine ctermfg=Black	ctermbg=White
 highlight Statement  ctermfg=Yellow			cterm=NONE
 highlight Type						cterm=NONE
 
