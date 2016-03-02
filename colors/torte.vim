@@ -36,9 +36,21 @@ highlight Visual					cterm=reverse
 highlight Cursor     ctermfg=Black	ctermbg=Black	cterm=bold
 highlight Special    ctermfg=Brown
 highlight Comment    ctermfg=Blue
-"highlight StatusLine ctermfg=blue	ctermbg=white
+" 状态栏 add by jameskid 2016.3.2
 highlight StatusLine ctermfg=Black	ctermbg=White
 highlight Statement  ctermfg=Yellow			cterm=NONE
+highlight StatusLineNC	gui=NONE	guifg=black guibg=black	ctermfg=darkBlue  ctermbg=White
+highlight StatusLine	gui=bold	guifg=cyan	guibg=blue	ctermfg=Black   ctermbg=White
+" 行数颜色
+" highlight LineNr		guifg=Black		ctermfg=blackGreen
+" 标签栏 add by jameskid 2016.3.2
+hi Normal		guifg=yellow	guibg=darkBlue
+" 分割线颜色 add by jameskid 2016.3.2
+hi VertSplit	ctermfg=Black	ctermbg=Black 
+" 目录颜色
+" hi Directory	ctermfg=White	ctermbg=White 
+" 标签数字颜色
+" hi PmenuSel ctermfg=White	ctermbg=White 
 highlight Type						cterm=NONE
 
 " only for vim 5

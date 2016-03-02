@@ -75,7 +75,7 @@ command! -nargs=? -bar TBBlue call s:TBBlue(<args>)
 " Add the popup menu.
 amenu .50 PopUp.-Sep-    :
 if v:lang =~ 'zh_CN'
-    anoremenu <silent> .51 PopUp.文本浏览工具(&T).打开/关闭目录树(&T) :Tlist <CR>
+    anoremenu <silent> .51 PopUp.文本浏览工具(&T).打开/关闭目录树(&T) :Tagbar <CR>
     anoremenu <silent> .51 PopUp.文本浏览工具(&T).打开/关闭语法高亮(&E) :call <SID>TxtBrowserToggleFt() <CR>
     amenu .50 PopUp.文本浏览工具(&T).-Sep-    :
     nnoremenu <silent> .51 PopUp.文本浏览工具(&T).搜索光标下的单词(&S) :TSearch <cword> <CR>
@@ -119,7 +119,7 @@ if v:lang =~ 'zh_CN'
     vnoremenu <silent> .51 PopUp.文本浏览工具(&T).加蓝 y<ESC>:TBBlue @\" <CR>
 
 else
-    anoremenu <silent> .51 PopUp.TxtBrowser(&T).Tlist(&T) :Tlist <CR>
+    anoremenu <silent> .51 PopUp.TxtBrowser(&T).Tagbar(&T) :Tagbar <CR>
     anoremenu <silent> .51 PopUp.TxtBrowser(&T).Toggle\ syntax\ highlight(&E) :call <SID>TxtBrowserToggleFt() <CR>
     amenu .50 PopUp.&TxtBrowser(&T).-Sep-    :
     nnoremenu <silent> .51 PopUp.TxtBrowser(&T).Search\ This\ Word(&S) :TSearch <cword> <CR>
