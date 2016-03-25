@@ -49,8 +49,21 @@ hi Normal		guifg=yellow	guibg=darkBlue
 hi VertSplit	ctermfg=Black	ctermbg=Black 
 " 目录颜色
 " hi Directory	ctermfg=White	ctermbg=White 
-" 标签数字颜色
-" hi PmenuSel ctermfg=White	ctermbg=White 
+" 下拉选中颜色 add by jameskid 2016.3.25
+hi PmenuSel ctermfg=White	ctermbg=darkBlue
+" 下拉选单颜色 add by jameskid 2016.3.25 
+hi Pmenu      ctermfg=lightGreen ctermbg=Black
+" 未知
+hi DiffAdd    ctermbg=LightBlue    guibg=LightBlue
+hi DiffChange ctermbg=LightMagenta guibg=LightMagenta
+hi DiffDelete ctermfg=Blue	   ctermbg=LightCyan gui=bold guifg=Blue guibg=LightCyan
+hi DiffText   ctermbg=Red	   cterm=bold gui=bold guibg=Red
+hi FoldColumn ctermfg=DarkBlue	   ctermbg=Grey     guibg=Grey	    guifg=DarkBlue
+hi Folded     ctermbg=Grey	   ctermfg=DarkBlue guibg=LightGrey guifg=DarkBlue
+hi IncSearch  cterm=reverse	   gui=reverse
+hi ModeMsg    cterm=bold	   gui=bold
+hi MoreMsg    ctermfg=DarkGreen    gui=bold guifg=SeaGreen
+hi NonText    ctermfg=Blue	   gui=bold guifg=gray guibg=white
 highlight Type						cterm=NONE
 
 " only for vim 5
