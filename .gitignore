@@ -1,1 +1,9 @@
 *.cache
+_.swp
+*.exe
+*.dll
+macmap.vim
+makemenu.vim
+uninstall.txt
+rgb.txt
+vimtutor.bat
