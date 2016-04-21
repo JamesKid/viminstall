@@ -25,7 +25,7 @@
 	" }}}
 	" Default highlighting {{{
 		let s:target_hl_defaults = {
-		\   'gui'     : ['NONE', '#ff0000' , 'bold']
+		\   'gui'     : ['NONE', '#00ee00' , 'bold']
 		\ , 'cterm256': ['NONE', '196'     , 'bold']
 		\ , 'cterm'   : ['NONE', 'red'     , 'bold']
 		\ }
