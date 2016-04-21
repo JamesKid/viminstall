@@ -20,7 +20,7 @@ let g:colors_name = "torte"
 " highlight Normal     ctermfg=khaki	ctermbg=grey20
 " 前景色背景色
 hi Normal     guifg=Grey80	guibg=Black
-hi Search     guifg=Black guibg=Red gui=bold ctermfg=Black	ctermbg=Black	cterm=NONE  
+hi Search     guifg=Black guibg=Red gui=bold ctermfg=Black	ctermbg=Red	cterm=NONE  
 hi Visual	 guifg=#404040 gui=bold				cterm=reverse
 "hi Cursor     ctermfg=Black	ctermbg=Green	cterm=bold
 hi Cursor     guifg=Black guibg=Green gui=bold ctermfg=Black	ctermbg=Black	cterm=bold
