@@ -6,15 +6,15 @@
 " Script initialization {{{
 	if exists('g:EasyMotion_loaded') || &compatible || version < 702
 		finish
-	endif
+endif
 
 	let g:EasyMotion_loaded = 1
 " }}}
-" Default configuration {{{
-	" Default options {{{
+" Default configuration {{{ 
+	" Default options {{{   温馨提示: 在keys中添加中文可以查找中文哦!
 		call EasyMotion#InitOptions({
 		\   'leader_key'      : '<Leader><Leader>'
-		\ , 'keys'            : 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+		\ , 'keys'            : 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ中'
 		\ , 'do_shade'        : 1
 		\ , 'do_mapping'      : 1
 		\ , 'grouping'        : 1
