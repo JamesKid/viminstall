@@ -8,18 +8,19 @@
 " 获取vim使用提示
 function vimkid_getdata#getTips() 
     let str = system("curl -s \"http://vim-tips.com/random_tips/txt\"")
-    echo "vimkid: "
-    echo "中文"
-    echo str
-    " return split(str,"\n")[0]
+    echo "vimkid: ".str
 endfunction
 
 " 获取外网ip
 function vimkid_getdata#getIp() 
     let str = system("curl -s 'www.vimkid.com/jiekou/getip'")
-    echo "vimkid: outIp is "
-    echo str
-    " return split(str,"\n")[0]
+    echo "vimkid: outIp is " .str
+endfunction
+
+" 获取手机信息
+function vimkid_getdata#getPhoneInfo() 
+    let str = system("curl -s 'https://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel=13481407788'")
+    echo "vimkid: outIp is ".str
 endfunction
 
 " 获取天气
