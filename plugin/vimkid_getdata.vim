@@ -16,7 +16,7 @@ endfunction
 
 " 获取外网ip
 function vimkid_getdata#getIp() 
-    let str = system("curl -s 'icanhazip.com'")
+    let str = system("curl -s 'www.vimkid.com/jiekou/getip'")
     echo "vimkid: outIp is "
     echo str
     " return split(str,"\n")[0]
