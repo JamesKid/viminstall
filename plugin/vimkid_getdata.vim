@@ -19,7 +19,8 @@ endfunction
 
 " 获取手机信息
 function vimkid_getdata#getPhoneInfo() 
-    let str = system("curl -s 'https://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel=13481407788'")
+    "let str = system("curl -s 'https://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel=13481407788'")
+    let str = system("curl -s 'http://www.apifree.net/mobile/18523004409.xml'")
     echo "vimkid: outIp is ".str
 endfunction
 
@@ -31,6 +32,7 @@ endfunction
 
 command! VimkidGetTips call vimkid_getdata#getTips()
 command! VimkidGetIp call vimkid_getdata#getIp()
+command! VimkidGetPhoneInfo call vimkid_getdata#getPhoneInfo()
 nmap lo :VimkidGetTips<cr>
 nmap l, :VimkidGetIp<cr>
 

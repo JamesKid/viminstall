@@ -1,6 +1,5 @@
 *.cache
 _.swp
-*.exe
 *.dll
 !gvimfullscreen.dll
 macmap.vim
