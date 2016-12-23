@@ -20,12 +20,14 @@ let g:txtbrowser_version = "1.3.4"
 "=Options===========================================================
 " User defined web dictionary
 if !exists('TxtBrowser_Dict_Url')
-    let TxtBrowser_Dict_Url = 'http://www.google.com/dictionary?aq=f&langpair=en|zh-CN&q=text&hl=zh-CN'
+    "let TxtBrowser_Dict_Url = 'http://www.google.com/dictionary?aq=f&langpair=en|zh-CN&q=text&hl=zh-CN'
+    let TxtBrowser_Dict_Url = 'http://dict.cn/text'
 endif
 
 " User defined Search Engine.
 if !exists('Txtbrowser_Search_Engine')
-    let Txtbrowser_Search_Engine = 'http://www.google.com/search?hl=zh-CN&source=hp&q=text&btnG=Google+%E6%90%9C%E7%B4%A2&lr=&aq=f&oq='
+    "let Txtbrowser_Search_Engine = 'http://www.google.com/search?hl=zh-CN&source=hp&q=text&btnG=Google+%E6%90%9C%E7%B4%A2&lr=&aq=f&oq='
+    let Txtbrowser_Search_Engine = 'http://dict.cn/text'
 endif
 
 "===================================================================
